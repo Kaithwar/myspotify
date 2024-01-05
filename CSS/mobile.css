@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.container{
+/*   min-height: 50vh; */
+  background-color: black;
+  color: white;
+  font-family: 'Varela', sans-serif;
+  display: flex;
+  margin-bottom: 23px;
+  padding: 23px;
+}
+
+.container h1{
+  font-size: 23px;
+}
+
+songItemContainer{
+    margin-top: 25px;
+}
+
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 8px 0;
+/*     justify-content: space-between; */
+    align-items: center;
+    border-radius: 25px;
+  width: 80%;
+}
+
+.songName{
+  font-size: 10px;
+}
+
+.songItem img{
+  width: 30px;
+  margin: 0 12px;
+  border-radius: 12px;
+}
+
+.timestamp{
+    margin: 0 8px;
+    font-size: 12px;
+}
+
+.songItemPlay{
+  font-size: 15px;
+}
+
+.icons{
+  font-size: 12px;
+}
+
+.songInfo{
+    position: absolute;
+    font-family: 'Varela', sans-serif;
+  font-size: 15px;
+    margin-top: 85px;
+}
+
+
+.details{
+  font-size: 10px;
+}
